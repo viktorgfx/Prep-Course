@@ -1,0 +1,37 @@
+.flex-container {
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .flex-container > div {
+    background-color: #e2e7ec;
+    width: auto;
+    margin: 5px;
+   gap: 30px;
+    font-weight: normal;
+    line-height: normal;
+    flex: auto ;
+    font-size: 20px;
+  }
+  p{
+    font-family: fantasy;
+    line-height: 32px;
+    font-weight: normal;
+    margin: 0px;
+  }
+  img {
+    float:left;
+}
+h3{
+  font-family: fantasy;
+  
+}
+pre{
+  font-family: fantasy;
+  line-height: 32px;
+  font-weight: normal;
+  margin: 0px;
+}
